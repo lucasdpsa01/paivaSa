@@ -2,7 +2,7 @@ import "./sobre.css"
 
 export default function Sobre(){
     return(
-        <div className="sobre">
+        <div className="sobre" id="Sobre">
             <h1>Sobre</h1>
             <div className="sobre-fullstack">
                 <h2>Desenvolvedor Full-Stack</h2>

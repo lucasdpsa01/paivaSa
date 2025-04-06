@@ -2,7 +2,7 @@ import { projects } from "../../data/projects"
 
 export default function Projetos(){
     return(
-        <div className="projetos">
+        <div className="projetos" id="Projetos">
             <h1>Projetos</h1>
             {projects.map((project) => (
                 <div key={project.id} className="projetos-container">

@@ -4,7 +4,7 @@ import "./skills.css"
 
 export default function Skills() {
     return (
-        <div className="skills">
+        <div className="skills" id="Skills">
             <h1>Skills</h1>
             <div className="skills-icon">
                 {skills.map((skill) => (
