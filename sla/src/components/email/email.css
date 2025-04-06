@@ -1,0 +1,25 @@
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-email{
+    height: 25px;
+}
+.form-message{
+    outline: none;
+    resize: none;
+    height: 100px;
+}
+.botao{
+    height: 35px;
+}

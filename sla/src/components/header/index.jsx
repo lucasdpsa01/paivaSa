@@ -7,7 +7,7 @@ export default function Header(){
       };
     return (
         <div className="header">
-            <h1>Portifólio</h1>
+            <Link to="/" className="header-portifolio"><h1>Portifólio</h1></Link>
             <div className="header-links">
                 <button onClick={() => scrollToSection('Sobre')}>Sobre</button>
                 <button onClick={() => scrollToSection('Skills')}>Skills</button>

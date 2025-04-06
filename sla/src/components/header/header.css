@@ -17,3 +17,8 @@
     all: unset;
     cursor: pointer;
 }
+
+.header-portifolio{
+    text-decoration: none;
+    color: black;
+}
