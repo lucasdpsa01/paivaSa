@@ -1,0 +1,11 @@
+.introducao{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+}
+
+.introducao-text{
+    display: flex;
+    flex-direction: column;
+}
