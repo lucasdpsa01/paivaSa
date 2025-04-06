@@ -14,5 +14,6 @@
 }
 
 .header-links button {
-    border-radius: none;
+    all: unset;
+    cursor: pointer;
 }

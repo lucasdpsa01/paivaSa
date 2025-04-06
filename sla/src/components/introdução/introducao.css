@@ -3,9 +3,6 @@
     padding: 0;
 
     display: flex;
+    width: 800px;
 }
 
-.introducao-text{
-    display: flex;
-    flex-direction: column;
-}
