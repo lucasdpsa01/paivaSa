@@ -1,0 +1,15 @@
+.skills-icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nomes {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.skill-container:hover .nomes{
+    opacity: 1;
+}
