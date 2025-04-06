@@ -1,15 +1,19 @@
-.skills-icon{
+.links-icon{
     display: flex;
     justify-content: center;
     gap: 15px;
 }
-
-.nomes {
+.redes-container p {
     text-align: center;
     opacity: 0;
     transition: opacity 0.6s ease;
 }
 
-.skill-container:hover .nomes{
+.redes-container a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.redes-container:hover p{
     opacity: 1;
 }

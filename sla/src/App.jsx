@@ -1,8 +1,9 @@
 import Header from "./components/header"
 import Introducao from "./components/introdução"
-import Sobre from "./components/Sobre"
+import Sobre from "./components/sobre"
 import Skills from "./components/skills"
 import Projetos from "./components/projetos"
+import Links from "./components/links"
 
 export default function App() {
   return(
@@ -12,6 +13,7 @@ export default function App() {
       <Sobre />
       <Skills />
       <Projetos />
+      <Links />
     </div>
   )
 }
