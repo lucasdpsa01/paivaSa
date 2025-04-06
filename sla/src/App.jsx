@@ -1,9 +1,10 @@
 import Header from "./components/header"
 import Introducao from "./components/introdução"
-import Sobre from "./components/sobre"
+import Sobre from "./components/Sobre"
 import Skills from "./components/skills"
 import Projetos from "./components/projetos"
 import Links from "./components/links"
+import Footer from "./components/footer"
 
 export default function App() {
   return(
@@ -14,6 +15,7 @@ export default function App() {
       <Skills />
       <Projetos />
       <Links />
+      <Footer />
     </div>
   )
 }
