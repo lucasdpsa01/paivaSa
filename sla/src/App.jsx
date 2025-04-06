@@ -2,6 +2,7 @@ import Header from "./components/header"
 import Introducao from "./components/introdução"
 import Sobre from "./components/Sobre"
 import Skills from "./components/skills"
+import Projetos from "./components/projetos"
 
 export default function App() {
   return(
@@ -10,6 +11,7 @@ export default function App() {
       <Introducao />
       <Sobre />
       <Skills />
+      <Projetos />
     </div>
   )
 }
