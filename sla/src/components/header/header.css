@@ -22,3 +22,9 @@
     text-decoration: none;
     color: black;
 }
+
+@media(max-width: 700px) {
+    .header-links{
+        display: none;
+    }
+}

@@ -6,3 +6,22 @@
     width: 800px;
 }
 
+.introducao-imagem{
+    border-radius: 10px;
+}
+
+
+@media (max-width: 810px) {
+    .introducao{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .introducao-imagem{
+        width: 230px;
+    }
+    .introducao-text{
+        text-align: center;
+        width: 500px;
+    }
+}

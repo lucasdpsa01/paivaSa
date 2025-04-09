@@ -1,3 +1,8 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
 .skills-icon{
     display: flex;
     justify-content: center;
@@ -13,4 +18,13 @@
 
 .skill-container:hover .nomes{
     opacity: 1;
+}
+
+@media (max-width:810px) {
+    .skills{
+        align-items: center;
+    }
+    .skills-images{
+        height: 70px;
+    }
 }

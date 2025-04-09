@@ -1,3 +1,14 @@
 .projetos{
     width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:810px) {
+    .projetos{
+        align-items: center;
+    }
+    .projetos-container{
+        width: 500px;
+    }
 }

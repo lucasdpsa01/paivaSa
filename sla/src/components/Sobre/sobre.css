@@ -1,3 +1,23 @@
 .sobre{
+    display: flex;
+    flex-direction: column;
     width: 800px;
+}
+
+@media(max-width: 810px) {
+    .sobre{
+        align-items: center;
+    }
+    .sobre-fullstack{
+        text-align: center;
+        width: 500px;
+    }
+    .sobre-analise-dados{
+        text-align: center;
+        width: 500px;
+    }
+    .sobre-games{
+        text-align: center;
+        width: 500px;
+    }
 }

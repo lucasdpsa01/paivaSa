@@ -9,7 +9,7 @@ export default function Skills() {
             <div className="skills-icon">
                 {skills.map((skill) => (
                     <div key={skill.id} className="skill-container">
-                        <img src={skill.images} alt="imagens" height={100}/>
+                        <img src={skill.images} alt="imagens" height={100}className="skills-images"/>
                         <div className="nomes">{skill.nome}</div> 
                     </div>
                 ))}

@@ -1,3 +1,7 @@
+.links{
+    display: flex;
+    flex-direction: column;
+}
 .links-icon{
     display: flex;
     justify-content: center;
@@ -17,4 +21,16 @@
 
 .redes-container:hover p{
     opacity: 1;
+}
+
+@media(max-width:810px) {
+    .links{
+        align-items: center;
+    }
+    .links-icon{
+        gap: 7px;
+    }
+    .links-images{
+        height: 70px;
+    }
 }

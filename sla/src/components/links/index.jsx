@@ -9,7 +9,7 @@ export default function Links() {
             <div className="links-icon">
             {redes_sociais.map((redes) => (
                 <div key={redes.id} className="redes-container">
-                    <a href={redes.url}><img src={redes.images} alt="redes sociais" height={80}/>
+                    <a href={redes.url}><img src={redes.images} alt="redes sociais" height={80} className="links-images"/>
                     <p>🔗{redes.nome}</p></a>
                 </div>
             ))}
