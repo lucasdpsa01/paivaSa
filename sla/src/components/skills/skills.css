@@ -1,6 +1,7 @@
 .skills{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .skills-icon{
@@ -8,6 +9,7 @@
     justify-content: center;
     gap: 15px;
     width: 800px;
+    flex-wrap: wrap;
 }
 
 .nomes {
@@ -26,5 +28,8 @@
     }
     .skills-images{
         height: 70px;
+    }
+    .skills-icon{
+        width: auto;
     }
 }

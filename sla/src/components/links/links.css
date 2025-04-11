@@ -1,10 +1,12 @@
 .links{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .links-icon{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
     width: 800px;
 }
@@ -26,9 +28,11 @@
 @media(max-width:810px) {
     .links{
         align-items: center;
+        width: auto;
     }
     .links-icon{
         gap: 7px;
+        width: auto;
     }
     .links-images{
         height: 70px;

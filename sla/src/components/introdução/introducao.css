@@ -16,12 +16,14 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        width: auto;
     }
     .introducao-imagem{
-        width: 230px;
+        
+        width: 210px;
     }
     .introducao-text{
         text-align: center;
-        width: 500px;
+        width: auto;
     }
 }

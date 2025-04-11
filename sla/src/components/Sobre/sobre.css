@@ -7,17 +7,18 @@
 @media(max-width: 810px) {
     .sobre{
         align-items: center;
+        width: auto;
     }
     .sobre-fullstack{
         text-align: center;
-        width: 500px;
+        width: auto;
     }
     .sobre-analise-dados{
         text-align: center;
-        width: 500px;
+        width: auto;
     }
     .sobre-games{
         text-align: center;
-        width: 500px;
+        width: auto;
     }
 }

@@ -7,8 +7,9 @@
 @media(max-width:810px) {
     .projetos{
         align-items: center;
+        width: auto;
     }
     .projetos-container{
-        width: 500px;
+        width: auto;
     }
 }
