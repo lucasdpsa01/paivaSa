@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import './scroll.css'
+import './scroll.css';
 
 export default function Scroll() {
     const [isVisible, setIsVisible] = useState(false);
@@ -11,7 +11,7 @@ export default function Scroll() {
         } else {
             setIsVisible(false);
         }
-    }
+    };
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -22,17 +22,17 @@ export default function Scroll() {
 
     useEffect(() => {
         window.addEventListener('scroll', toggleVisibility);
-
         return () => {
             window.removeEventListener('scroll', toggleVisibility);
         };
     }, []);
 
     return (
-        <>
-            {isVisible && (
-                <button onClick={scrollToTop} className="scroll-top">↑</button>
-            )}
-        </>
-    )
+        <button
+            onClick={scrollToTop}
+            className={`scroll-top ${isVisible ? 'show' : ''}`}
+        >
+            ↑
+        </button>
+    );
 }

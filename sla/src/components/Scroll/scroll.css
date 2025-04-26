@@ -1,12 +1,20 @@
-.scroll-top{
+.scroll-top {
     position: fixed;
     bottom: 40px;
     right: 40px;
     padding: 10px 15px;
     color: white;
-    font-size: 20px;
     background-color: black;
     cursor: pointer;
-    border-radius: 13px;
-    box-shadow: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+
+.scroll-top.show {
+    opacity: 1;
+    visibility: visible;
 }
