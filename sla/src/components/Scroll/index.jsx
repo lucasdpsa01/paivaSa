@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import cima from "../../assets/cima.png"
 
 import './scroll.css';
 
@@ -32,7 +33,7 @@ export default function Scroll() {
             onClick={scrollToTop}
             className={`scroll-top ${isVisible ? 'show' : ''}`}
         >
-            ↑
+        <img src={cima} alt="cima" height={20}/>
         </button>
     );
 }

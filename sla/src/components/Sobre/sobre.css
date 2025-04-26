@@ -4,21 +4,56 @@
     width: 800px;
 }
 
+.sobre-fullstack{
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre-analise-dados {
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre-games{
+    display: flex;
+    flex-direction: row;
+}
+
 @media(max-width: 810px) {
     .sobre{
         align-items: center;
         width: auto;
+        padding: 2px;
     }
     .sobre-fullstack{
         text-align: center;
         width: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
     .sobre-analise-dados{
         text-align: center;
         width: auto;
+        flex-direction: column-reverse;
+        align-items: center;
     }
     .sobre-games{
         text-align: center;
         width: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .sobre-fullstack img{
+        height: 100px;
+        width: 100px;
+    }
+    .sobre-analise-dados img{
+        height: 100px;
+        width: 100px;
+    }
+    .sobre-games img{
+        height: 100px;
+        width: 100px;
     }
 }

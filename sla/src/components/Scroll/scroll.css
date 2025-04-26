@@ -3,8 +3,6 @@
     bottom: 40px;
     right: 40px;
     padding: 10px 15px;
-    color: white;
-    background-color: black;
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
@@ -17,4 +15,10 @@
 .scroll-top.show {
     opacity: 1;
     visibility: visible;
+}
+
+@media(max-width: 810px) {
+    .scroll-top.show{
+        display: none;
+    }
 }

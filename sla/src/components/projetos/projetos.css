@@ -8,8 +8,13 @@
     .projetos{
         align-items: center;
         width: auto;
+        padding: 2px;
     }
     .projetos-container{
         width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }

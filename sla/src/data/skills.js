@@ -7,7 +7,7 @@ import py from "../assets/python.png"
 import sql from "../assets/sql.png"
 
 export const skills = [
-    {id: 1, images: html, nome: "Html"},
+    {id: 1, images: html, nome: "HTML"},
     {id: 2, images: css, nome: "CSS"},
     {id: 3, images: js, nome: "JavaScript"},
     {id: 4, images: react, nome: "React.js"},
