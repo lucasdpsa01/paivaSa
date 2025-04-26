@@ -24,6 +24,9 @@ export default function Email() {
         <div className="email">
             <h2>Entre em contato!</h2>
             <form ref={form} onSubmit={enviarEmail} className="form">
+                <label className="label-name">Nome: </label>
+                <input type="text" name="from_name" className="form-name" required />
+                
                 <label className="label-email">Email:</label>
                 <input type="email" name="from_email" className="form-email" required />
 

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:wght@300&display=swap');
+
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.cascadia-mono {
+    font-family: "Cascadia Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2{
+    font-family: "Cal Sans", sans-serif;
+}
+
+p{
+    font-family: "Cascadia Mono", sans-serif;
+}
