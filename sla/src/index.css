@@ -28,6 +28,6 @@ h1, h2{
     font-family: "Cal Sans", sans-serif;
 }
 
-p{
+p, Label{
     font-family: "Cascadia Mono", sans-serif;
 }

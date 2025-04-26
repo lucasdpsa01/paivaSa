@@ -18,7 +18,7 @@ export default function Header() {
                 <button onClick={() => scrollToSection('Sobre')}>Sobre</button>
                 <button onClick={() => scrollToSection('Skills')}>Skills</button>
                 <button onClick={() => scrollToSection('Projetos')}>Projetos</button>
-                <Link to="/contato"><h3>Contato</h3></Link>
+                <Link to="/contato" className="header-contanto"><h3>Contato</h3></Link>
             </div>
         </div>
     )

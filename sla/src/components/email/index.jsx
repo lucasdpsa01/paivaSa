@@ -25,10 +25,10 @@ export default function Email() {
             <h2>Entre em contato!</h2>
             <form ref={form} onSubmit={enviarEmail} className="form">
                 <label className="label-name">Nome: </label>
-                <input type="text" name="from_name" className="form-name" required />
-                
+                <input type="text" name="name" className="form-name" required />
+
                 <label className="label-email">Email:</label>
-                <input type="email" name="from_email" className="form-email" required />
+                <input type="email" name="email" className="form-email" required />
 
                 <label className="label-mensagem">Mensagem: </label>
                 <textarea name="message" className="form-message" required></textarea>
