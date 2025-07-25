@@ -10,6 +10,7 @@ export default function Projetos(){
                 <div key={project.id} className="projetos-container">
                     <h2>{project.nome}</h2>
                     <p>{project.descricao}</p>
+                    <a href={project.site}><p>🔗Link do projeto</p></a>
                 </div>
             ))}
         </div>
