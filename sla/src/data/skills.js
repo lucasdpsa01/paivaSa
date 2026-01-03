@@ -6,6 +6,7 @@ import node from "../assets/node.png"
 import py from "../assets/python.png"
 import pyspark from "../assets/pyspark.png"
 import sql from "../assets/sql.png"
+import selenium from "../assets/selenium.png"
 
 
 
@@ -17,5 +18,6 @@ export const skills = [
     {id: 5, images: node, nome: "Node.js"},
     {id: 6, images: py, nome: "Pyhton"},
     {id: 7, images: pyspark, nome: "PySpark"},
-    {id: 8, images: sql, nome: "SQL"}
+    {id: 8, images: selenium, nome: "Selenium"},
+    {id: 9, images: sql, nome: "SQL"}
 ]
