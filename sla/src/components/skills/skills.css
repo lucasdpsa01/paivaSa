@@ -3,7 +3,7 @@
 .cascadia-mono {
     font-family: "Cascadia Mono", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 50;
     font-style: normal;
 }
 
@@ -19,22 +19,21 @@
     gap: 16px;
     width: 800px;
     flex-wrap: wrap;
-
-    border-style:dotted;
-    border-width: 2px;
     padding: 20px;
+}
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nomes {
     font-family: "Cascadia Mono", sans-serif;
     text-align: center;
-    opacity: 0;
-    transition: opacity 0.6s ease;
 }
 
-.skill-container:hover .nomes{
-    opacity: 1;
-}
+
 
 @media (max-width:810px) {
     .skills{

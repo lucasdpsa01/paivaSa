@@ -3,6 +3,7 @@ import Sobre from "../../components/Sobre"
 import Skills from "../../components/skills"
 import Projetos from "../../components/projetos"
 import Links from "../../components/links"
+import Education from "../Education"
 
 import "./geral.css"
 
@@ -12,6 +13,7 @@ export default function Geral() {
             <Introducao />
             <Sobre />
             <Skills />
+            <Education />
             <Projetos />
             <Links />
         </div>
