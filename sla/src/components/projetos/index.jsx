@@ -2,17 +2,21 @@ import { projects } from "../../data/projects"
 
 import "./projetos.css"
 
-export default function Projetos(){
-    return(
+export default function Projetos() {
+    return (
         <div className="projetos" id="Projetos">
-            <h1>Projetos</h1>
-            {projects.map((project) => (
-                <div key={project.id} className="projetos-container">
-                    <h2>{project.nome}</h2>
-                    <p>{project.descricao}</p>
-                    <a href={project.site}><p>🔗Link do projeto</p></a>
-                </div>
-            ))}
+            <h2>Projetos</h2>
+            <div className="projects">
+                {projects.map((project) => (
+                    <div key={project.id} className="projetos-container">
+                        <a href={project.site}>
+                            <h3>{project.nome}</h3>
+                            <p>{project.descricao}</p>
+                            <p>🔗Link do projeto</p>
+                        </a>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

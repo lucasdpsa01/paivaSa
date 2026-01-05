@@ -5,7 +5,7 @@ import "./education.css"
 export default function Education() {
     return(
         <div className="education">
-            <h2>Education</h2>
+            <h2>Educação</h2>
             <div className="edu-ceub">
                 <img src={ceub} alt="logo ceub" height={50}/>
                 <div className="edu-text">

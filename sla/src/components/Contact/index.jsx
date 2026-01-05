@@ -1,6 +1,6 @@
-import Header from "../../components/header"
-import Email from "../../components/email"
-import Footer from "../../components/footer"
+import Header from "../header"
+import Email from "../email"
+import Footer from "../footer"
 
 import "./contato.css"
 

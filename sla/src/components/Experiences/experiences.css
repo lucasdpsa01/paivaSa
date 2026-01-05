@@ -1,0 +1,30 @@
+.ex-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.ex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.ex img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.ex p{
+    text-align: center;
+}
