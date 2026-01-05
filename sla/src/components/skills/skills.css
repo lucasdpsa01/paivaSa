@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:wght@300&display=swap');
-
-.cascadia-mono {
-    font-family: "Cascadia Mono", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 50;
-    font-style: normal;
-}
-
 .skills{
     display: flex;
     flex-direction: column;
@@ -29,7 +20,6 @@
 }
 
 .nomes {
-    font-family: "Cascadia Mono", sans-serif;
     text-align: center;
 }
 

@@ -13,12 +13,12 @@ export default function Header() {
     
     return (
         <div className="header">
-            <Link to="/" className="header-portfolio"><h1>Portfólio</h1></Link>
+            <h1>Portfólio</h1>
             <div className="header-links">
-                <button onClick={() => scrollToSection('Sobre')}>Sobre</button>
+                <button onClick={() => scrollToSection('Experiences')}>Experiências</button>
                 <button onClick={() => scrollToSection('Skills')}>Skills</button>
                 <button onClick={() => scrollToSection('Projetos')}>Projetos</button>
-                <Link to="/contato" className="header-contanto"><h3>Contato</h3></Link>
+                <button onClick={() => scrollToSection('Contact')}>Contato</button>
             </div>
         </div>
     )

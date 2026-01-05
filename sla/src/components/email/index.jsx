@@ -21,7 +21,7 @@ export default function Email() {
     };
 
     return(
-        <div className="email">
+        <div className="email" id="Contact">
             <h2>Entre em contato!</h2>
             <form ref={form} onSubmit={enviarEmail} className="form">
                 <label className="label-name">Nome: </label>

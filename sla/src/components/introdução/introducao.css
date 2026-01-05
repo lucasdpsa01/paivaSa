@@ -10,6 +10,10 @@
     border-radius: 10px;
 }
 
+.introducao-text h1{
+    color: black;
+}
+
 .links-icon{
     display: flex;
     justify-content: flex-start;
