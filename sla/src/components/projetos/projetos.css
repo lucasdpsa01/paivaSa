@@ -3,8 +3,6 @@
     display: flex;
     flex-direction: column;
 }
-<<<<<<< HEAD
-=======
 
 .projects{
     display: flex;
@@ -12,16 +10,12 @@
     gap: 10px;
 }
 
->>>>>>> c377e50 (deu a louca no vscode)
 .projetos-container{
     display: flex;
     flex-direction: column;
     gap: 10px;
     
     border: 2px solid black;
-<<<<<<< HEAD
-}
-=======
     border-radius: 6px;
     padding: 10px;
 }
@@ -39,7 +33,6 @@
     font-size: 0.85rem;
 }
 
->>>>>>> c377e50 (deu a louca no vscode)
 a{
     text-decoration: none;
     color: black;
