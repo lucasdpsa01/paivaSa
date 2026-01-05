@@ -6,7 +6,7 @@
 
 .skills-icon{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 16px;
     width: 800px;
     flex-wrap: wrap;
@@ -19,7 +19,8 @@
     align-items: center;
 }
 
-.nomes {
+.nomes p{
+    font-size: 13px;
     text-align: center;
 }
 
