@@ -14,6 +14,10 @@
     height: 500px;
     width: 500px;
     border: 2px solid black;
+<<<<<<< HEAD
+=======
+    border-radius: 6px;
+>>>>>>> c377e50 (deu a louca no vscode)
 
     word-wrap: break-word;
     overflow-wrap: break-word;

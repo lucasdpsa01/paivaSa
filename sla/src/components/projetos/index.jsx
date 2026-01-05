@@ -12,7 +12,11 @@ export default function Projetos() {
                         <a href={project.site}>
                             <h3>{project.nome}</h3>
                             <p>{project.descricao}</p>
-                            <p>🔗Link do projeto</p>
+                            <div className="pro-linguagens">
+                                {project.linguagens.map((linguagem, index) => (
+                                    <span key={index} className="linguagem">{linguagem}</span>
+                                ))}
+                            </div>
                         </a>
                     </div>
                 ))}
