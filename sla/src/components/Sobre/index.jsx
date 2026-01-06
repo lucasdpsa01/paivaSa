@@ -10,7 +10,7 @@ export default function Sobre() {
   ];
 
   return (
-    <div className="sobre-container">
+    <div className="sobre-container" id="Competencias">
       <h2>Minhas Proficiências</h2>
 
       {pro.map(({ name, level }, index) => (
