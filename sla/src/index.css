@@ -1,14 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-.cal-sans-regular {
-    font-family: "Cal Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
 .space-grotesk {
   font-family: "Space Grotesk", sans-serif;
@@ -32,9 +24,83 @@
 }
 
 
+/* ===================================================================
+   =================================================================== */
+
+
+
+body.light {
+    --bg: #f7f8fc;
+    --surface: #ffffff;
+    --primary: #6c5cff;
+    --primary-soft: #8b7cff;
+    --text: #1a1a1a;
+    --muted: #606177;
+    --border: #e3e4f0;
+    --btn-focus: rgba(108, 92, 255, .4);
+}
+
+body.dark {
+    --bg: #0b0614;
+    --surface: #130b23;
+    --primary: #7c5cff;
+    --primary-soft: #9b86ff;
+    --text: #eae8ff;
+    --muted: #a9a4c2;
+    --border: #241b3a;
+    --btn-focus: rgba(156, 134, 255, .5);
+}
 
 body{
     font-family: "Inter", sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    height: 100%;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--primary-soft);
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+h1{
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+h2{
+    font-size: 1.6em;
+    line-height: 1.1;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--primary);
+    color: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover{
+    background-color: var(--primary-soft);
+}
+button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--btn-focus);
 }
 
 html, body {
