@@ -1,0 +1,4 @@
+.header-img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+}
