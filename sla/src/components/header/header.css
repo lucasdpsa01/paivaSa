@@ -18,6 +18,15 @@
     gap: 20px;
 }
 
+.header-links button {
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+.header-links button:hover{
+    border: 2px solid var(--border);
+
+}
+
 .header-img {
     transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;

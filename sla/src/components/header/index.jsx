@@ -6,7 +6,7 @@ export default function Header() {
     const scrollToSection = (id) => {
         const element = document.getElementById(id);
         if (element) {
-            const top = element.getBoundingClientRect().top + window.pageYOffset - 70;
+            const top = element.getBoundingClientRect().top + window.pageYOffset - 90;
             window.scrollTo({ top, behavior: 'smooth' });
         }
     };
