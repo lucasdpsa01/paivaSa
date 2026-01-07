@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Tema from "../Tema";
 import Nav from "../Nav";
+import hambuger from "../../assets/hamburger.svg"
 
 import "./header.css"
 
@@ -27,7 +28,19 @@ export default function Header() {
                 <button onClick={() => scrollToSection('Contact')}>Contato</button>
                 <Tema />
             </div>
+            
+            <Nav 
+                isOpen={isNav}
+                navClose={() => setIsNav(false)}
+            />
 
+            <button
+                className="hambuger"
+                onClick={() => setIsNav(true)}
+                aria-label="Abrir menu"
+            >
+                <img src={hambuger} alt="menu" />
+            </button>
         </div>
     )
 }

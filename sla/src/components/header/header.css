@@ -5,6 +5,7 @@
     position: sticky;
     top: 0;
     background-color: black;
+    z-index: 50;
 }
 
 .header h1 {
@@ -27,14 +28,39 @@
 
 }
 
-
 .header-img:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
 
-@media(max-width: 700px) {
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    z-index: 3000;
+}
+
+.hambuger{
+    display: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.hambuger:hover{
+    background-color: transparent;
+    border: 0;
+}
+
+
+@media(max-width: 1150px) {
     .header-links{
         display: none;
+    }
+    .hambuger{
+        display: initial;
+    }
+    .hambuger img {
+        width: 20px;
     }
 }

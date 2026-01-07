@@ -1,10 +1,16 @@
-.slider {
-    width: 100%;
-    height: var(--height);
+.slider-wrapper{
     mask: linear-gradient(to right,
             transparent,
             #000,
             transparent);
+    z-index: 1;
+}
+
+.slider {
+    width: 100%;
+    height: var(--height);
+    mask: none;
+    z-index: 1;
 }
 
 @media (hover: none) and (pointer: coarse) {
