@@ -1,39 +1,78 @@
-.skills{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.slider {
+    width: 100%;
+    height: var(--height);
+    mask: linear-gradient(to right,
+            transparent,
+            #000,
+            transparent);
 }
 
-.skills-icon{
-    display: flex;
-    justify-content: flex-start;
-    gap: 16px;
-    width: 800px;
-    flex-wrap: wrap;
-    padding: 20px;
+@media (hover: none) and (pointer: coarse) {
+    .slider:hover .item{
+        animation-play-state: running !important;
+        filter: none;
+    }
+
+    .slider:hover .item:hover {
+        filter: none;
+    }
 }
-.skill-container{
+
+@media (hover: hover) and (pointer: fine) {
+    .slider:hover .item{
+        animation-play-state: paused !important;
+        filter: grayscale(1);
+    }
+
+    .slider:hover .item:hover {
+        filter: grayscale(0);
+    }
+}
+
+.slider .list {
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width) * var(--quantity));
+    position: relative;
+}
+
+.slider .list .item {
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    left: 100%;
+    animation: autoRun 10s linear infinite;
+    animation-delay: calc((10s / var(--quantity)) * (var(--position) - 1));
+}
+
+@keyframes autoRun {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: calc(var(--width) * -1);
+    }
+}
+
+
+.list {
+    width: 100%;
+    height: var(--height);
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 1rem;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.nomes p{
-    font-size: 13px;
-    text-align: center;
-}
-
-
-
-@media (max-width:810px) {
-    .skills{
-        align-items: center;
-    }
-    .skills-images{
-        height: 70px;
-    }
-    .skills-icon{
-        width: auto;
-    }
 }

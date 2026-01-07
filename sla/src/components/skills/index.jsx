@@ -7,14 +7,16 @@ export default function Skills() {
         <div className="skills" id="Skills">
             <h2>O que eu faço</h2>
             <p>Um programador Full Stack e Analista de Dados que almeja explorar tudo sobre essas áreas</p>
-            <div className="skills-icon">
-                {skills.map((skill) => (
-                    <div key={skill.id} className="skill-container">
+            <div className="slider" style={{ "--width": "50px", "--height": "70px"}}>
+                <div className="list" style={{ "--quantity": skills.length}}>
+                    {skills.map((skill, index) => (
+                    <div key={skill.id} className="item" style={{ "--position": index + 1}}>
                         <img src={skill.images} alt="imagens" height={40}className="skills-images"/>
-                        <div className="nomes"><p>{skill.nome}</p></div>
                     </div>
-                ))}
+                    ))}
+                </div>
             </div>
+
             <div className="areas-description">
                 <p>⚡Desenvolver interfaces front-end / User Interfaces para suas aplicações web</p>
                 <p>⚡Análise, manipulação e visualização de dados com Python</p>
