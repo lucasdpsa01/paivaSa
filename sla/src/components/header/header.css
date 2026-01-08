@@ -52,7 +52,6 @@
     border: 0;
 }
 
-
 @media(max-width: 1150px) {
     .header-links{
         display: none;

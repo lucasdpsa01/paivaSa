@@ -4,3 +4,10 @@
     align-items: center;
     gap: 40px;
 }
+
+@media (max-width: 810px) {
+    .geral {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

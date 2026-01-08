@@ -10,8 +10,10 @@
     border-radius: 10px;
 }
 
-.introducao-text h1{
-    color: black;
+.introducao-text p {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .links-icon{
@@ -29,11 +31,16 @@
         width: auto;
     }
     .introducao-imagem{
-        
         width: 210px;
     }
     .introducao-text{
         text-align: center;
         width: auto;
+    }
+    .introducao-text{
+        width: 500px;
+    }
+    .links-icon {
+        justify-content: center;
     }
 }
