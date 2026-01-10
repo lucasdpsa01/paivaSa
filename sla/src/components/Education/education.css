@@ -33,3 +33,23 @@
 .edu-text p {
     margin: 0;
 }
+@media (max-width: 800px) {
+    .education {
+        width: auto;
+    }
+    .education h2{
+        text-align: center;
+    }
+    .edu-ceub {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .edu-text {
+        align-items: center;
+        justify-content: center;
+    }
+    .edu-text p {
+        text-align: center;
+    }
+}

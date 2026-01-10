@@ -11,7 +11,7 @@ export default function Education() {
                 <div className="edu-text">
                     <h2>Centro de Ensino Unificado de Brasília</h2>
                     <h3>Ciência da Computação</h3>
-                    <h3>Janeiro 2023 - Dezembro 2026</h3>
+                    <h4>Janeiro 2023 - Dezembro 2026</h4>
                     <p>Estudante de Ciência da Computação com experiência prática em desenvolvimento web, lógica de programação e bancos de dados.</p>
                 </div>
             </div>
