@@ -6,7 +6,16 @@
     z-index: 1;
 }
 
+.skills {
+    max-width: 800px;
+    width: 100%;
+}
+
 .slider {
+    --width: 50px;
+    --height: 70px;
+    --gap: 16px;
+
     width: 100%;
     height: var(--height);
     mask: none;
@@ -38,7 +47,7 @@
 .slider .list {
     display: flex;
     width: 100%;
-    min-width: calc(var(--width) * var(--quantity));
+    min-width: calc((var(--width) + var(--gap)) * var(--quantity));
     position: relative;
 }
 
@@ -57,8 +66,8 @@
     }
 
     to {
-        left: calc(var(--width) * -1);
-    }
+        left: calc((var(--width) + var(--gap)) * -1);
+}
 }
 
 
@@ -66,10 +75,11 @@
     width: 100%;
     height: var(--height);
     display: flex;
+
     overflow-x: hidden;
     overflow-y: hidden;
     scroll-behavior: smooth;
-    gap: 1rem;
+    gap: var(--gap);
     padding: 1rem;
 
     scrollbar-width: none;
@@ -81,4 +91,39 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.skills p,
+.areas-description p {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+}
+
+
+@media (max-width: 850px) {
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider {
+        --width: 38px;
+        --height: 55px;
+    }
+    .list {
+        padding: 0;
+        gap: 0.5rem;
+    }
+
+    .slider-wrapper {
+        mask: none;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 550px) {
+    .slider {
+        --width: 32px;
+    }
 }
