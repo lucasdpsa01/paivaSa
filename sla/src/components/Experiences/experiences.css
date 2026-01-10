@@ -46,5 +46,8 @@
         align-items: stretch;
         gap: 30px;
     }
+    .experiences {
+        text-align: center;
+    }
     
 }
