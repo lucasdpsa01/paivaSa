@@ -31,11 +31,11 @@
         width: auto;
     }
     .introducao-imagem{
-        width: 210px;
+        width: 180px;
+        height: 180px;
     }
     .introducao-text{
         text-align: center;
-        width: auto;
     }
     .introducao-text{
         width: 90%;
@@ -44,4 +44,5 @@
     .links-icon {
         justify-content: center;
     }
+    
 }

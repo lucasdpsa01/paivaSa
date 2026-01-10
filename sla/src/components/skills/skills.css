@@ -23,12 +23,8 @@
 }
 
 @media (hover: none) and (pointer: coarse) {
-    .slider:hover .item{
+    .slider .item{
         animation-play-state: running !important;
-        filter: none;
-    }
-
-    .slider:hover .item:hover {
         filter: none;
     }
 }
@@ -106,6 +102,10 @@
         width: 100%;
         height: auto;
     }
+
+    .slider:hover .item {
+    animation-play-state: paused;
+}
 
     .slider {
         --width: 38px;
