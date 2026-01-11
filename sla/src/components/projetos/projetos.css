@@ -19,6 +19,8 @@
     border-radius: 6px;
 }
 .projetos-container a{
+    display: block;
+    width: 100%;
     padding: 10px;
 }
 
@@ -29,6 +31,7 @@
 .pro-linguagens {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -43,6 +46,13 @@ a{
     text-decoration: none;
     color: var(--text);
 }
+
+.projetos-container p,
+.projetos-container h3 {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
 @media(max-width:810px) {
     .projetos{
         align-items: center;
@@ -55,5 +65,14 @@ a{
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    .projetos-container h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width:350px) {
+    .projetos{
+        width: auto;
     }
 }
