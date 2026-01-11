@@ -23,3 +23,15 @@
 .botao{
     height: 35px;
 }
+
+@media (max-width: 500px) {
+    .email{
+        width: 90%;
+    }
+    .email h2{
+        text-align: center;
+    }
+    .form {
+        width: 80%;
+    }
+}
