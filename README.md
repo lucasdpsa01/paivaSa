@@ -11,11 +11,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Demonstração
 
-Na aba home
-![Paiva Sá — Mozilla Firefox 19_05_2025 17_51_12](https://github.com/user-attachments/assets/c91a9050-09dd-4cd5-8f01-b8dedbc05458)
+Modo claro
+<img width="2552" height="1237" alt="Captura de tela 2026-06-10 121456" src="https://github.com/user-attachments/assets/548a8fd3-7317-4d02-af90-5f5b7a68c5e1" />
 
-Na aba contato
-![Paiva Sá — Mozilla Firefox 19_05_2025 17_52_41](https://github.com/user-attachments/assets/af25d4da-58a2-4b0e-8389-20517e527e2c)
+Modo Escuro
+<img width="2552" height="1230" alt="Captura de tela 2026-06-10 121515" src="https://github.com/user-attachments/assets/7fcabe24-6d10-4964-8bf6-af4605637b76" />
+
 
 ## Como rodar o projeto
 
