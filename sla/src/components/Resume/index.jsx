@@ -6,6 +6,7 @@ export default function Resume() {
     return (
         <div className="resume">
             <h2>Meus Currículos</h2>
+            <p>Disponibilizo abaixo as versões do meu currículo para análise.</p>
             <div className="resume-container">
                 {curriculos.map((item) => (
                 <div key={item.id} className="resume-list">

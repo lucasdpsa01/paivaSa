@@ -18,8 +18,8 @@ export default function Geral() {
             <Education />
             <Experiences />
             <Projetos />
-            <Email />
             <Resume />
+            <Email />
         </div>
     )
 }

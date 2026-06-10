@@ -1,5 +1,13 @@
 .resume{
     width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume p {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 .resume-list{
     display: flex;
@@ -40,3 +48,20 @@
 
 }
 
+@media (max-width: 820px) {
+    .resume {
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .resume p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume-container{
+        flex-direction: column;
+    }
+}
