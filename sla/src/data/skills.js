@@ -14,6 +14,8 @@ import seaborn from  "../assets/seaborn.svg"
 import java from "../assets/java.png"
 import spring from "../assets/spring.png"
 import plone from "../assets/plone.png"
+import laravel from "../assets/Laravel.svg"
+import php from "../assets/php.png"
 
 
 
@@ -31,6 +33,8 @@ export const skills = [
     {id: 11, images: Matplotlib, nome: "Matplotlib"},
     {id: 12, images: seaborn, nome: "Seaborn"},
     {id: 13, images: java, nome: "Java"},
-    {id:14, images: spring, nome: "Spring Boot"},
-    {id:15, images: plone, nome: "Plone"}
+    {id: 14, images: spring, nome: "Spring Boot"},
+    {id: 15, images: plone, nome: "Plone"},
+    {id: 16, images: php, nome: "PHP"},
+    {id: 17, images: laravel, nome: "Laravel"}
 ]
