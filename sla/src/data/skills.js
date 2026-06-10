@@ -11,7 +11,9 @@ import PostgresSQL from "../assets/PostgresSQL.svg"
 import Matplotlib from "../assets/Matplotlib.svg"
 import NumPy from "../assets/NumPy.svg"
 import seaborn from  "../assets/seaborn.svg"
-import bootstrap from "../assets/Bootstrap.svg"
+import java from "../assets/java.png"
+import spring from "../assets/spring.png"
+import plone from "../assets/plone.png"
 
 
 
@@ -27,7 +29,8 @@ export const skills = [
     {id: 9, images: selenium, nome: "Selenium"},
     {id: 10, images: pyspark, nome: "PySpark"},
     {id: 11, images: Matplotlib, nome: "Matplotlib"},
-    {id: 12, images: NumPy, nome: "NumPy"},
-    {id: 13, images: seaborn, nome: "Seaborn"},
-    {id: 14, images: bootstrap, nome: "Bootstrap"}
+    {id: 12, images: seaborn, nome: "Seaborn"},
+    {id: 13, images: java, nome: "Java"},
+    {id:14, images: spring, nome: "Spring Boot"},
+    {id:15, images: plone, nome: "Plone"}
 ]
