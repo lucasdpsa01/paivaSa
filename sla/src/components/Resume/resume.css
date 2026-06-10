@@ -1,0 +1,42 @@
+.resume{
+    width: 800px;
+}
+.resume-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    border: 2px solid var(--border);
+    border-radius: 6px;
+
+    width: 200px;
+    height: 70px;
+
+}
+
+.resume-list:hover {
+    border: 2px dashed var(--border);
+}
+
+.resume-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    
+
+
+}
+
+.resume-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 10px;
+
+}
+

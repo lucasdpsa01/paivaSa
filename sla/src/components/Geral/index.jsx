@@ -5,6 +5,7 @@ import Projetos from "../../components/projetos"
 import Education from "../Education"
 import Experiences from "../Experiences"
 import Email from "../email"
+import Resume from "../Resume"
 
 import "./geral.css"
 
@@ -18,6 +19,7 @@ export default function Geral() {
             <Experiences />
             <Projetos />
             <Email />
+            <Resume />
         </div>
     )
 }

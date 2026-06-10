@@ -17,8 +17,6 @@ import plone from "../assets/plone.png"
 import laravel from "../assets/Laravel.svg"
 import php from "../assets/php.png"
 
-
-
 export const skills = [
     {id: 1, images: html, nome: "HTML"},
     {id: 2, images: css, nome: "CSS"},
