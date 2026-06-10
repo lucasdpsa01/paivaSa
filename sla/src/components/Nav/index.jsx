@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Tema from "../Tema";
 
 import "./nav.css"
+import sair from "../../assets/sair.png"
 
 export default function Nav({ isOpen, navClose }) {
     const [closing, setClosing] = useState(false)
@@ -40,7 +41,7 @@ export default function Nav({ isOpen, navClose }) {
                     <h2>Paiva Sá</h2>
                 </section>
                 <section className="nav-sec2">
-                    <img src="https://zvthzrqyqghxxrojjdnf.supabase.co/storage/v1/object/public/tools%20icons/iconx.png" alt="sair" onClick={navClose} className="navbar-btn"/>
+                    <img src={sair} alt="sair" onClick={navClose} className="navbar-btn"/>
                 </section>
             </div>
             <div className="navbar-container">

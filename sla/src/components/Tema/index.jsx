@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 
 import "./tema.css"
+import sun from "../../assets/sun.png"
+import moon from "../../assets/moon.png"
 
 export default function Tema() {
     const [darkMode, setDarkMode] = useState(false);
@@ -16,7 +18,7 @@ export default function Tema() {
 
     return(
         <div className="tema">
-            <img src={darkMode ? "https://unpwemjugtntyiedmdvc.supabase.co/storage/v1/object/public/images/moon.png" : "https://unpwemjugtntyiedmdvc.supabase.co/storage/v1/object/public/images/sun.png"} 
+            <img src={darkMode ? moon : sun} 
                 alt="Alternar tema"
                 height={35}
                 onClick={() => setDarkMode(!darkMode)}
