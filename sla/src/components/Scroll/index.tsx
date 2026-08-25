@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import cima from "../../assets/cima.png"
 
 import './scroll.css';
-
+    
 export default function Scroll() {
     const [isVisible, setIsVisible] = useState(false);
 

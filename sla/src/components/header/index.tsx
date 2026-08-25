@@ -5,11 +5,15 @@ import hambuger from "../../assets/hamburger.svg"
 
 import "./header.css"
 
-export default function Header() {
+interface HeaderProps {
+className?: string;
+}
+
+export default function Header( {className}: HeaderProps) {
 
     const [isNav, setIsNav] = useState(false);
 
-    const scrollToSection = (id) => {
+    const scrollToSection = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
             const top = element.getBoundingClientRect().top + window.pageYOffset - 90;
@@ -18,7 +22,7 @@ export default function Header() {
     };
 
     return (
-        <div className="header">
+        <div className={`header ${className ?? ''}`}>
             <h1>Portfólio</h1>
             <div className="header-links">
                 <button onClick={() => scrollToSection('Competencias')}>Competências</button>

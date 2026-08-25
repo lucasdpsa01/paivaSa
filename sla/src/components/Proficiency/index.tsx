@@ -1,7 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import "./proficiency.css"
 
-export default function Proficiency({ name, level}) {
+interface ProficiencyProps {
+    name: string;
+    level: number;
+}
+
+export default function Proficiency({ name, level}: ProficiencyProps) {
     const ref = useRef(null);
     const [visible, setVisible] = useState(false);
     
