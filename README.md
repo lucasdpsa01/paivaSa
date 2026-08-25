@@ -6,7 +6,7 @@ Um web site, onde mostro minhas skills, projetos, falo um pouco sobre mim, e uma
 Este projeto foi desenvolvido com as seguintes tecnologias:
 - React.js
 - Vite
-- Html, Css
+- HTML, CSS
 - Bibliotecas (Router, Email.js)
 
 ## Demonstração
