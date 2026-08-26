@@ -4,7 +4,12 @@ import Tema from "../Tema";
 import "./nav.css"
 import sair from "../../assets/sair.png"
 
-export default function Nav({ isOpen, navClose }) {
+interface NavProps {
+    isOpen: boolean;
+    navClose: () => void;
+}
+
+export default function Nav({ isOpen, navClose }: NavProps) {
     const [closing, setClosing] = useState(false)
 
     useEffect(() => {
@@ -19,7 +24,7 @@ export default function Nav({ isOpen, navClose }) {
         }, 300);
     }
 
-    const scrollToSection = (id) => {
+    const scrollToSection = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
             const top = element.getBoundingClientRect().top + window.pageYOffset - 90;
@@ -27,7 +32,7 @@ export default function Nav({ isOpen, navClose }) {
         }
     };
 
-    const handleNavigate = (id) => {
+    const handleNavigate = (id: string) => {
         scrollToSection(id);
         handleClose();
     };

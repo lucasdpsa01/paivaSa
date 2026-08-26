@@ -4,15 +4,17 @@ import emailjs from 'emailjs-com'
 import "./email.css"
 
 export default function Email() {
-    const form = useRef();
+    const form = useRef<HTMLFormElement>(null);
 
-    const enviarEmail = (e) => {
+    const enviarEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+
+        if (!form.current) return;
 
         emailjs.sendForm('service_wc68lmd', 'template_tdku9dh', form.current, 'rj12eEppK9YvyXn39')
         .then(() => {
             alert('Mensagem enviada com sucesso!');
-            form.current.reset();
+            form.current?.reset();
         })
         .catch((error) => {
             console.log('Erro ao enviar', error);

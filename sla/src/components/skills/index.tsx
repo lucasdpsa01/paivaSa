@@ -9,9 +9,9 @@ export default function Skills() {
             <p>Um programador Full Stack e Analista de Dados que almeja explorar tudo sobre essas áreas</p>
             <div className="slider-wrapper">
                 <div className="slider">
-                    <div className="list" style={{ "--quantity": skills.length }}>
+                    <div className="list" style={{ "--quantity": skills.length } as React.CSSProperties}>
                         {skills.map((skill, index) => (
-                            <div key={skill.id} className="item" style={{ "--position": index + 1 }}>
+                            <div key={skill.id} className="item" style={{ "--position": index + 1 } as React.CSSProperties}>
                                 <img src={skill.images} alt="imagens" height={40} className="skills-images" />
                             </div>
                         ))}
