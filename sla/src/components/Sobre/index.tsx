@@ -3,10 +3,9 @@ import "./sobre.css"
 
 export default function Sobre() {
   const pro = [
-    { name: "Front end", level: 75 },
-    { name: "Back end", level: 65 },
-    { name: "Analista de Dados", level: 70 },
-    { name: "Game Dev", level: 25 },
+    { name: "Front end", level: 80 },
+    { name: "Back end", level: 55 },
+    { name: "Analista de Dados", level: 50 },
   ];
 
   return (
