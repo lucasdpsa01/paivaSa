@@ -29,17 +29,6 @@
     }
 }
 
-@media (hover: hover) and (pointer: fine) {
-    .slider:hover .item{
-        animation-play-state: paused !important;
-        filter: grayscale(1);
-    }
-
-    .slider:hover .item:hover {
-        filter: grayscale(0);
-    }
-}
-
 .slider .list {
     display: flex;
     width: 100%;

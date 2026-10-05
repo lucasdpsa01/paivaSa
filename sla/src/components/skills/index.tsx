@@ -6,7 +6,7 @@ export default function Skills() {
     return (
         <div className="skills" id="Skills">
             <h2>O que eu faço</h2>
-            <p>Um programador Full Stack e Analista de Dados que almeja explorar tudo sobre essas áreas</p>
+            <p>Um programador Full Stack que almeja explorar tudo sobre essas áreas</p>
             <div className="slider-wrapper">
                 <div className="slider">
                     <div className="list" style={{ "--quantity": skills.length } as React.CSSProperties}>
@@ -21,8 +21,8 @@ export default function Skills() {
 
             <div className="areas-description">
                 <p>⚡Desenvolver interfaces front-end / User Interfaces para suas aplicações web</p>
-                <p>⚡Análise, manipulação e visualização de dados com Python</p>
                 <p>⚡Integração de serviços terceiros como supabase</p>
+                <p>⚡Análise, manipulação e visualização de dados com Python</p>
             </div>
         </div>
     )
